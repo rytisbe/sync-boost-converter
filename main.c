@@ -22,3 +22,4 @@ void SystemClockInit(void){
 	RCC->CFGR	|= (uint32_t)(RCC_CFGR_SW_1);							// use PLLRCLK as system clock
 		
 }
+
